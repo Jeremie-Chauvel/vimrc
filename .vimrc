@@ -31,7 +31,7 @@ set expandtab           " use spaces for tabs
 set softtabstop=4       " 4 space tab
 set shiftwidth=4
 set modelines=1
-filetype indent on
+filetype indent plugin on " Allow auto wrapping of lines
 set autoindent
 " }}}
 " UI Layout {{{
